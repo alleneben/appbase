@@ -1,0 +1,55 @@
+@import 'variables.scss';
+
+.app {
+    background: $background-color;
+    height: 100vh;
+
+    h1 {
+        margin: 0;
+    }
+    .navline {
+        background: $secondary-blue-color;
+        height: 0.25rem;
+    }
+    .nav {
+        background: $primary-blue-color;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: $pure-white;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                margin: 0 0.5rem;
+                list-style: none;
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+
+        .sidemenu {
+            flex-grow: 0.2;
+            padding: 10px;
+        }
+        .content {
+            flex-grow: 0.8;
+            padding: 10px;
+
+            .card {
+                background: $pure-white;
+                padding: 5px;
+                height: 200px;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            }
+        }
+    }
+}
