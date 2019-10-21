@@ -10,22 +10,31 @@ function App() {
       <nav className={styles.nav}>
         <h1>logo</h1>
         <ul>
-          <li>Dashboard</li>
-          <li>New Member</li>
-          <li>Set up</li>
-          <li>Finance</li>
-          <li>Reports</li>
+          <li><i className="fa fa-tachometer-alt"></i> Dashboard</li>
+          <li><i className="fa fa-plus"></i> New Member</li>
+          <li><i className="fa fa-cogs"></i> Set up</li>
+          <li><i className="fa fa-money-bill-alt"></i> Finance</li>
+          <li><i className="fa fa-chart-line"></i> Reports</li>
         </ul>
       </nav>
 
       <div className={styles.main}>
         <div className={styles.sidemenu}>
-          hdh
+          <ul>
+            <li><i className="fa fa-home"></i>Affiliates</li>
+            <li><i className="fa fa-envelope"></i>hello</li>
+            <li><i className="fa fa-truck"></i>hii</li>
+            <li><i className="fa fa-tags"></i>hello</li>
+            <li><i className="fa fa-users"></i>hello</li>
+            <li><i className="fa fa-truck"></i>hii</li>
+            <li><i className="fa fa-tags"></i>hello</li>
+            <li><i className="fa fa-users"></i>hello</li>
+          </ul>
         </div>
         <div className={styles.content}>
           
           <div className={styles.card}>
-            content
+            DELCINE SALVAGE
           </div>
         </div>
       </div>
