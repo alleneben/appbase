@@ -37,7 +37,32 @@ function App() {
         <div className={styles.content}>
           
           <div className={styles.card}>
-            DELCINE SALVAGE
+            <div className={styles.cardtitle}>
+              <i className="fas fa-life-ring"></i>
+              DELCINE SALVAGE
+            </div>
+            <div className={styles.cardbody}>
+              <div className={styles.formitem}>
+                <label>Funnel</label>
+                <input type="text" placeholder="Start Date"/>
+              </div>
+
+              <div className={styles.formitem}>
+                <label>Date Range abc dfgdhgghj</label>
+                <input type="text" placeholder="Start Date"/>
+              </div>
+
+              <div className={styles.formitem}>
+                <label>Date Range abc dfgdhgghj</label>
+                <select type="text" placeholder="Start Date">
+                  <option>Choose</option>
+                  <option>Hello</option>
+                  <option>Hii</option>
+                  <option>Kofi</option>
+                </select>
+              </div>
+            </div>
+            <button>Run Salvage</button>
           </div>
         </div>
       </div>
