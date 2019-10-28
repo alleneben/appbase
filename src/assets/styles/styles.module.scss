@@ -82,26 +82,31 @@
 
             .card {
                 background: $pure-white;
+                height: 400px;
                 padding: 20px;
-                height: 200px;
                 font-weight: 700;
                 line-height: 10px;
                 font-size: 12px;
                 border-radius: 5px;
                 box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+                .cardtitle{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 2rem;
+                    i {
+                        margin-right: 10px;
+                        font-size: 15px;
+                    }
+                }
+                .footer {
+                    display: flex;
+                    justify-content: flex-end;
+                }
             }
         }
     }
     
-    .cardtitle{
-        display: flex;
-        align-items: center;
-        margin-bottom: 2rem;
-        i {
-            margin-right: 10px;
-            font-size: 15px;
-        }
-    }
 
 
     .formitem {
@@ -140,6 +145,18 @@
             border: 1px solid $light-gray;
             background: $pure-white;
         }
+    }
+    .btnprimary {
+        background: $secondary-blue-color;
+        color: $pure-white;
+        padding: 1rem 2rem;
+        border: none;
+        cursor: pointer;
+        margin: 0.5rem;
+        border-radius: 1px;
+    }
+    button:focus {
+        outline: none;
     }
     
 }
