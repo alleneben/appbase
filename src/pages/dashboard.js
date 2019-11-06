@@ -7,7 +7,7 @@ const Dashboard = () => {
 
 
     return (
-        <div>Hello Dashy</div>
+        <div>Click on <h1>New Member</h1> to see the form</div>
     )
 }
 
