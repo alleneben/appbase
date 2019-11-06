@@ -2,6 +2,7 @@ import Field from './inputs/field';
 import CardWizard from './cardwizard/cardwizard';
 import Collapsible from './collapsible/collapsible';
 import Card from './card/card';
+import ResultsTable from './table/resultstable';
 
 
 // layouts
@@ -14,7 +15,7 @@ export {
     CardWizard,
     Collapsible,
     Card,
-
+    ResultsTable,
     TopNav,
     SideNav,
     Footer

@@ -4,9 +4,10 @@ import { AppContext } from '../appstate/appcontext';
 import AppRoutes from './approutes';
 
 
-function AppLayout() {
+function AppLayout(props) {
   const [step, setstep] = useState(0);
   const [steps, setsteps] = useState(4)
+
 
   useEffect(() => {
 
@@ -20,7 +21,7 @@ function AppLayout() {
   }
 
   return (
-    <AppContext.Provider value={{_onsubmit}}>
+    <AppContext.Provider value={{_onsubmit,props}}>
       <AppRoutes />
     </AppContext.Provider>
   );

@@ -9,6 +9,7 @@ const AppRoutes = () => {
         <Switch>
             <Route exact path="/" component={ MainLayout } />
             <Route exact path="/member" component={ MainLayout } />
+            <Route exact path="/searchpage" component={MainLayout} />
             <Route
                 render={function () {
                     return <h5>Page Not Found. It is under fast development</h5>;

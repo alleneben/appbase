@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route} from 'react-router-dom';
+// import './assets/styles/all.min.css';
 import './assets/styles/index.scss';
 import './assets/styles/style.scss';
 import './assets/styles/card.scss';
