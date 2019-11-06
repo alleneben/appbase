@@ -7,7 +7,7 @@ const Dashboard = () => {
 
 
     return (
-        <div>Click on <h1>New Member</h1> to see the form</div>
+        <div>Click on <h1>New Member</h1> to see the form. The form will be converted into a multi step form</div>
     )
 }
 
